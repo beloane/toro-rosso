@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  color: #444;
+}
+
+.container {
+  margin: 0 auto;
+  /* max-width: 900px; */
+}
+
+header {
+  /* background-color: orangered; */
+  height: 90vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(DSC_4444-4212292.webp);
+  background-size: cover;
+  color: #fff;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 32px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient();
+}
+
+.header-container {
+  width: 900px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* background-color: violet; */
+}
+.header-container-inner {
+  width: 50%;
+  transform: translate(100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #e67e22; */
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #8f2281;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+  transition: all 0.2s;
+}
+.btn:hover,
+.btn:active {
+  background-color: #b251a5;
+}
+
+.logo {
+  width: 200px;
+}
+
+section {
+  padding: 96px 0;
+  background-color: #f7f7f7;
+}
