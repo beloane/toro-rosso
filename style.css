@@ -20,6 +20,7 @@ body {
 }
 
 .section-header {
+  padding: 3.2rem;
   height: 90vh;
   position: relative;
 
@@ -58,6 +59,13 @@ nav {
   /* background-color: violet; */
 }
 
+.logo-mid {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   font-size: 5.2rem;
   font-weight: 700;
@@ -89,7 +97,7 @@ p {
   color: white;
   text-decoration: none;
   display: inline-block;
-  padding: 1.6rem 3.2rem;
+  padding: 1rem 1.5rem;
   border-radius: 0.9rem;
   transition: all 0.2s;
 }
