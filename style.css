@@ -145,13 +145,24 @@ p {
   background-image: linear-gradient(rgba(48, 11, 43, 1), rgb(207, 147, 199));
 }
 
+.section-vid {
+  padding: 3.2rem 0;
+  background-image: linear-gradient(rgb(207, 147, 199), rgba(48, 11, 43, 1));
+}
+.section-contact {
+  padding: 3.2rem 0;
+  background-image: linear-gradient(rgba(48, 11, 43, 1), rgb(207, 147, 199));
+}
+
 .grid {
   display: grid;
   gap: 9.6rem;
   row-gap: 5.2rem;
-  grid-template-columns: repeat(3, 1fr);
 }
 
+.grid--1-cols {
+  grid-template-columns: repeat(1, 1fr);
+}
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -161,6 +172,10 @@ p {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.flex-vid {
+  text-align: center;
+}
+
 .grid--3-rows {
   grid-template-rows: repeat(3, 1fr);
 }
