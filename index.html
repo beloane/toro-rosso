@@ -16,24 +16,49 @@
   </head>
   <body>
     <header class="section-header">
-      <nav>
-        <div>social media</div>
+      <nav class="nav">
+        <ul class="social-links">
+          <li>
+            <a class="header-link" href="#"
+              ><ion-icon
+                class="header-social-icon"
+                name="logo-instagram"
+              ></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="header-link" href="#"
+              ><ion-icon
+                class="header-social-icon"
+                name="logo-facebook"
+              ></ion-icon
+            ></a>
+          </li>
+          <li>
+            <a class="header-link" href="#"
+              ><ion-icon
+                class="header-social-icon"
+                name="logo-youtube"
+              ></ion-icon
+            ></a>
+          </li>
+        </ul>
         <a class="logo-box logo-mid" href="#">
           <img class="logo" src="toro_rosso_alb-6494788.webp" alt="logo2" />
         </a>
-        <a href="#" class="btn">0770 867 676</a>
+        <a href="tel:0770867676" class="btn">0770 867 676</a>
       </nav>
 
       <div class="header-container">
         <h1>Toro Rosso</h1>
-        <a class="logo-box" href="#">
+        <a class="logo-box footer-logo" href="#">
           <img
             class="logo"
             src="/logo_thor_no_bg-6776165.webp"
             alt="logo_thor"
           />
         </a>
-        <p>Piața Arenei, nr 5, Arad (Boul Roșu)</p>
+        <p class="p">Piața Arenei, nr 5, Arad (Boul Roșu)</p>
       </div>
     </header>
 
@@ -380,6 +405,64 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a class="logo-box footer-logo" href="#">
+            <img class="logo" src="toro_rosso_alb-6494788.webp" alt="logo2" />
+          </a>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by Toro Rosso, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="adress-col">
+          <p class="footer-heading">Contacteaza-ne</p>
+          <address class="contact">
+            <p class="address">Piața Arenei, nr 5, Arad (Boul Roșu)</p>
+
+            <p>
+              <a class="footer-link" href="tel:0770867676">0770 867 676</a>
+              <br />
+              <a class="footer-link" href="mailto:tororossoarad@gmail.com"
+                >tororossoarad@gmail.com</a
+              >
+            </p>
+          </address>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-youtube"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="nav-col map-responsive">
+          <p class="footer-heading">Locatie</p>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2763.2003596375234!2d21.317997176514844!3d46.16666717109417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47459996166de0d3%3A0xc37684fd49811f23!2sTHOR!5e0!3m2!1sen!2sro!4v1707860237552!5m2!1sen!2sro"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </nav>
+      </div>
+    </footer>
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

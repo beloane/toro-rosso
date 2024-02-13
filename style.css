@@ -33,7 +33,7 @@ body {
   color: #f5e9f4;
 }
 
-nav {
+.nav {
   font-size: 2rem;
   font-weight: 700;
 
@@ -65,6 +65,21 @@ nav {
   top: 10%;
   transform: translate(-50%, -50%);
 }
+.header-social-icon {
+  height: 3.6rem;
+  width: 3.6rem;
+}
+.header-link:link,
+.header-link:visited {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #e2bedd;
+}
+.header-link:hover,
+.header-link:active {
+  color: #b251a5;
+  transition: all 0.2s;
+}
 
 h1 {
   font-size: 5.2rem;
@@ -73,6 +88,7 @@ h1 {
   margin-bottom: 3.2rem;
   letter-spacing: -0.5px;
 }
+
 .heading-secondary {
   font-size: 4.4rem;
   font-weight: 600;
@@ -91,7 +107,7 @@ h1 {
   text-align: center;
 }
 
-p {
+.p {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
@@ -101,8 +117,8 @@ p {
 .btn:visited {
   font-size: 2rem;
   font-weight: 600;
-  background-color: #8f2281;
-  color: #f5e9f4;
+  background-color: #e2bedd;
+  color: #8f2281;
   text-decoration: none;
   display: inline-block;
   padding: 1rem 1.5rem;
@@ -179,6 +195,13 @@ p {
 }
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 3fr;
 }
 .flex-vid {
   text-align: center;
@@ -379,6 +402,82 @@ p {
 }
 .btn--form:hover {
   background-color: #b251a5;
+}
+
+.map-responsive {
+  /* overflow: hidden; */
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 3.2rem;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  padding: 12.9rem 0;
+  background-image: linear-gradient(rgba(48, 11, 43, 1), rgb(207, 147, 199));
+  color: #f5e9f4;
+}
+
+.logo-col {
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.footer-nav {
+  list-style: none;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #300b2b;
+}
+.footer-link:hover,
+.footer-link:active {
+  color: #8f2281;
+  transition: all 0.2s;
+}
+.social-links {
+  margin-top: 2.6rem;
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  justify-content: start;
+}
+.footer-logo {
+  display: block;
+}
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.copyright {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: auto;
+}
+.contact {
+  font-size: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.address {
+  margin-bottom: 2.4rem;
 }
 
 /* CARUSEL */
