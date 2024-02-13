@@ -16,7 +16,7 @@ body {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 1.6rem 3.2rem 1.6rem 3.2rem;
 }
 
 .section-header {
@@ -135,9 +135,15 @@ p {
   background-image: linear-gradient(rgba(48, 11, 43, 1), rgb(207, 147, 199));
 }
 
+.section-features {
+  padding: 3.2rem 0;
+  background-image: linear-gradient(rgb(207, 147, 199), rgba(48, 11, 43, 1));
+}
+
 .grid {
   display: grid;
   gap: 9.6rem;
+  row-gap: 5.2rem;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -146,6 +152,9 @@ p {
 }
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 .grid--3-rows {
   grid-template-rows: repeat(3, 1fr);
@@ -161,7 +170,7 @@ p {
 } */
 
 .vert {
-  height: 25rem;
+  height: 16rem;
   background-size: cover;
   background-position-y: center;
   border-radius: 6rem;
@@ -201,6 +210,8 @@ p {
 
 .car {
   padding: 0 2.4rem;
+  margin: 0 auto;
+  max-width: 90rem;
 }
 .img-car1 {
   background-image: url(/car1.jpg);
@@ -213,6 +224,26 @@ p {
 }
 .img-car4 {
   background-image: url(/car4.jpg);
+}
+.feature-icon {
+  color: #8f2281;
+  height: 3.2rem;
+  width: 3.2rem;
+  margin-bottom: 3.2rem;
+  background-color: #e2bedd;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #e2bedd;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  color: #e2bedd;
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 
 /* CARUSEL */
