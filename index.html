@@ -312,12 +312,12 @@
           <h2 class="heading-secondary castiguri">Galerie Foto</h2>
         </div> -->
         <div class="container flex-vid">
-          <video width="720" height="480" autoplay muted loop>
+          <video class="vid" width="720" height="480" autoplay muted loop>
             <source src="v1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
-          <video width="720" height="480" autoplay muted loop>
+          <video class="vid" width="720" height="480" autoplay muted loop>
             <source src="v2party.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -325,7 +325,59 @@
       </section>
 
       <section class="section-contact">
-        <div class="container"></div>
+        <div class="container">
+          <h2 class="heading-secondary">Trimite-ne CV-ul Tau</h2>
+        </div>
+        <div class="cv-container">
+          <p class="feature-text text-cv">
+            Vrei sa faci parte din echipa noastra?
+          </p>
+
+          <a class="btn btn-cv" href="">Trimite CV - tororossoarad@gmail.com</a>
+          <!-- <img class="img-cv" src="/galcv.jpg" alt="cv" /> -->
+        </div>
+      </section>
+
+      <section class="section-cta">
+        <div class="container cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Contacteaza-ne</h2>
+            <p class="cta-text">
+              Pentru cariere va rugam sa ne trimite-ti cv-ul la adresa de mai
+              sus.
+            </p>
+            <form class="cta-form" action="#">
+              <div>
+                <label for="full-name">Nume</label>
+                <input
+                  required
+                  id="full-name"
+                  type="text"
+                  placeholder="Ion Vasile"
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  required
+                  id="email"
+                  type="email"
+                  placeholder="ionvasile@exemplu.com"
+                />
+              </div>
+              <div>
+                <label for="subiect">Subiect</label>
+                <input required id="subiect" type="text" />
+              </div>
+              <button class="btn btn--form">Trimite</button>
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="femeie numara banii"
+          ></div>
+        </div>
       </section>
     </main>
     <script
