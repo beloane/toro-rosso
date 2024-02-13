@@ -242,6 +242,7 @@ p {
 }
 .feature-text {
   color: #e2bedd;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.8;
 }
