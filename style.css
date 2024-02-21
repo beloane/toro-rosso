@@ -462,11 +462,11 @@ h1 {
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #300b2b;
+  color: #e2bedd;
 }
 .footer-link:hover,
 .footer-link:active {
-  color: #8f2281;
+  color: #b251a5;
   transition: all 0.2s;
 }
 .social-links {

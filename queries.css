@@ -96,10 +96,10 @@
 /* below 550px */
 @media (max-width: 35em) {
   html {
-    font-size: 52%;
+    font-size: 50%;
   }
   .container {
-    max-width: 48rem;
+    max-width: 46rem;
   }
   .logo-mid {
     position: absolute;
@@ -109,5 +109,29 @@
   }
   h1 {
     font-size: 3.6rem;
+  }
+}
+@media (max-width: 24em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 40rem;
+  }
+  .logo-mid {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+  }
+  h1 {
+    font-size: 3.6rem;
+  }
+  .text-cv {
+    font-size: 2rem;
+  }
+  .btn:link,
+  .btn:visited {
+    padding: 0.4rem 0.8rem;
   }
 }
