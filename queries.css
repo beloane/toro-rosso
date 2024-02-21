@@ -20,10 +20,6 @@
     max-width: 70rem;
   }
 
-  .container-gal {
-    grid-template-rows: 2fr 1fr;
-  }
-
   .grid--3-cols {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -99,7 +95,10 @@
 }
 /* below 550px */
 @media (max-width: 35em) {
+  html {
+    font-size: 52%;
+  }
   .container {
-    padding: 1rem;
+    max-width: 48rem;
   }
 }

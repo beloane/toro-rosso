@@ -287,6 +287,18 @@ h1 {
 .img-car4 {
   background-image: url(img/car4.webp);
 }
+.img-gal1 {
+  background-image: url(img/gal1.webp);
+}
+.img-gal2 {
+  background-image: url(img/gal7.webp);
+}
+.img-gal3 {
+  background-image: url(img/gal3.webp);
+}
+.img-gal4 {
+  background-image: url(img/gal4.webp);
+}
 .feature-icon {
   color: #8f2281;
   height: 3.2rem;
@@ -565,7 +577,7 @@ li {
   position: relative;
   padding-top: 75%;
   filter: drop-shadow(0 0 10px #0003);
-  perspective: 100px;
+  perspective: 10rem;
 }
 
 .carousel__viewport {
@@ -589,6 +601,16 @@ li {
   counter-increment: item;
   background-position-y: center;
   background-size: 80%;
+}
+
+.carousel__slide2 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-color: #f99;
+  counter-increment: item;
+  background-position-y: center;
+  background-size: 115%;
 }
 
 .carousel__slide:nth-child(even) {
@@ -663,8 +685,6 @@ li {
   transition: transform 0.1s;
 }
 
-.carousel::before,
-.carousel::after,
 .carousel__prev,
 .carousel__next {
   position: absolute;
@@ -728,8 +748,7 @@ ul {
   padding: 0;
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  /* flex-wrap: wrap; */
 }
 
 .tab {
