@@ -207,6 +207,10 @@ h1 {
   text-align: center;
 }
 .vid {
+  width: 720px;
+  height: 480px;
+  /* width: 360px;
+  height: 240px;  */
   margin-bottom: 1.6rem;
   border-radius: 11px;
   height: 100%;
@@ -724,11 +728,13 @@ ul {
   padding: 0;
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .tab {
-  width: calc(10vh + 8px);
-  height: calc(10vh + 8px);
+  width: calc(10vh + 0.8rem);
+  height: calc(10vh + 0.8rem);
   position: relative;
   display: flex;
   align-items: center;
