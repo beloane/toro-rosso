@@ -28,7 +28,7 @@ body {
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(DSC_4444-4212292.webp);
+    url(/img/DSC_4444-4212292.webp);
   background-size: cover;
   color: #f5e9f4;
 }
@@ -238,21 +238,21 @@ h1 {
       rgba(34, 34, 34, 0.4),
       rgba(34, 34, 34, 0.4)
     ),
-    url(/castig1.jpg);
+    url(img/castig1.webp);
 }
 .vert--2 {
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.4),
       rgba(34, 34, 34, 0.4)
     ),
-    url(/castig2.jpg);
+    url(img/castig2.webp);
 }
 .vert--3 {
   background-image: linear-gradient(
       rgba(34, 34, 34, 0.4),
       rgba(34, 34, 34, 0.4)
     ),
-    url(/castig3.jpg);
+    url(img/castig3.webp);
   background-position-y: 25%;
 }
 
@@ -272,16 +272,16 @@ h1 {
   max-width: 90rem;
 }
 .img-car1 {
-  background-image: url(/car1.jpg);
+  background-image: url(img/car1.webp);
 }
 .img-car2 {
-  background-image: url(/car2.jpg);
+  background-image: url(img/car2.webp);
 }
 .img-car3 {
-  background-image: url(/car3.jpg);
+  background-image: url(img/car3.webp);
 }
 .img-car4 {
-  background-image: url(/car4.jpg);
+  background-image: url(img/car4.webp);
 }
 .feature-icon {
   color: #8f2281;
@@ -307,7 +307,7 @@ h1 {
 }
 
 .cv-container {
-  background-image: url(/galcv.jpg);
+  background-image: url(img/galcv.webp);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -353,7 +353,7 @@ h1 {
       rgba(207, 147, 199, 0.35),
       rgba(48, 11, 43, 0.35)
     ),
-    url("/money.jpg");
+    url("img/money.webp");
   background-size: cover;
 
   background-position-x: 50%;
