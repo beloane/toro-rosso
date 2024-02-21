@@ -101,4 +101,13 @@
   .container {
     max-width: 48rem;
   }
+  .logo-mid {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+  }
+  h1 {
+    font-size: 3.6rem;
+  }
 }

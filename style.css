@@ -60,6 +60,7 @@ body {
 }
 
 .logo-mid {
+  z-index: 0;
   position: absolute;
   left: 50%;
   top: 10%;
@@ -474,6 +475,7 @@ h1 {
   display: flex;
   gap: 2.4rem;
   justify-content: start;
+  z-index: 1;
 }
 .footer-logo {
   display: block;
