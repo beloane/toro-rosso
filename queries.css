@@ -47,10 +47,10 @@
 /* below 750px */
 @media (max-width: 47em) {
   .container {
-    max-width: 48rem;
+    max-width: 47rem;
   }
   .car {
-    max-width: 48rem;
+    max-width: 47rem;
   }
   .grid {
     row-gap: 5.2rem;
