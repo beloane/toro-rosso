@@ -106,7 +106,8 @@ body {
 .modal-btn,
 .modal-btn:hover,
 .modal-btn:active {
-  background-color: #b251a5;
+  background-color: #e2bedd;
+  color: #8f2281;
 }
 .modal-no {
   background-color: #f5e9f4;
