@@ -122,6 +122,7 @@ body {
 .slider,
 .slider2 {
   position: relative;
+
   width: 100%; /* Full width of the container */
   max-width: 80rem; /* Maximum size of the slider */
   margin: auto; /* Center the slider */
@@ -130,7 +131,9 @@ body {
 
 .slides,
 .slides2 {
+  height: 75vh;
   display: flex; /* Align slides in a row */
+  align-items: center;
   transition: transform 0.5s ease; /* Smooth transition for sliding effect */
 }
 

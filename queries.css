@@ -6,6 +6,9 @@
   .grid {
     gap: 4.5rem;
   }
+  .slides {
+    height: 65vh;
+  }
 }
 /* below 960 */
 @media (max-width: 60em) {
@@ -39,6 +42,9 @@
   }
   .heading-secondary {
     font-size: 3.4rem;
+  }
+  .slides2 {
+    height: 40vh;
   }
 }
 /* below 750px */
@@ -91,6 +97,13 @@
   .slider-arrows {
     font-size: 2.4rem;
   }
+
+  .slides {
+    height: 60vh;
+  }
+  .slides2 {
+    height: 40vh;
+  }
 }
 /* below 550px */
 @media (max-width: 35em) {
@@ -108,6 +121,12 @@
   }
   h1 {
     font-size: 3.6rem;
+  }
+  .slides {
+    height: 45vh;
+  }
+  .slides2 {
+    height: 25vh;
   }
 }
 @media (max-width: 24em) {
@@ -140,5 +159,8 @@
   .vid {
     width: 24.12rem;
     height: 18.8rem;
+  }
+  .slides {
+    height: 45vh;
   }
 }
