@@ -40,6 +40,9 @@
   .heading-secondary {
     font-size: 3.4rem;
   }
+  .footer {
+    padding: 8.2rem;
+  }
 }
 /* below 750px */
 @media (max-width: 47em) {
@@ -134,9 +137,6 @@
     padding: 0.4rem 0.8rem;
   }
 
-  .footer {
-    padding: 8.2rem;
-  }
   .vid {
     width: 24.12rem;
     height: 18.8rem;
