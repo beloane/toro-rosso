@@ -399,7 +399,7 @@ h1 {
   height: 16rem;
   background-size: cover;
   background-position-y: center;
-  border-radius: 6rem;
+  border-radius: 11px;
 }
 
 .vert--1 {
@@ -408,6 +408,9 @@ h1 {
       rgba(34, 34, 34, 0.4)
     ),
     url(img/castig1.webp);
+  background-size: 230%;
+  background-position-x: 55%;
+  background-position-y: 50%;
 }
 .vert--2 {
   background-image: linear-gradient(
@@ -415,6 +418,9 @@ h1 {
       rgba(34, 34, 34, 0.4)
     ),
     url(img/castig2.webp);
+  background-size: 200%;
+  background-position-x: 45%;
+  background-position-y: 48%;
 }
 .vert--3 {
   background-image: linear-gradient(
