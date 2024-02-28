@@ -8,6 +8,7 @@ window.onbeforeunload = function () {
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".close-modal");
+const btnYesModal = document.querySelector(".modal-yes");
 const btnsOpenModal = document.querySelectorAll(".show-modal");
 
 const openModal = function () {
@@ -25,6 +26,9 @@ const closeModal = function () {
 window.addEventListener("load", openModal);
 
 btnCloseModal.addEventListener("click", closeModal);
+
+btnYesModal.addEventListener("click", closeModal);
+
 overlay.addEventListener("click", closeModal);
 // window.addEventListener("click", closeModal);
 

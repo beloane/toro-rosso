@@ -79,6 +79,43 @@ body {
   /* Optional: Prevent the body from shifting due to the scrollbar disappearing */
   padding-right: calc(var(--scrollbar-width, 0px) + 1px);
 }
+.modal-btns {
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.modal-btn,
+.modal-btn:link,
+.modal-btn:visited {
+  font-size: 2.4rem;
+  font-weight: 600;
+  /* background-color: #e2bedd;
+  color: #8f2281; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 0.9rem;
+  transition: all 0.2s;
+
+  border: none;
+  cursor: pointer;
+}
+.modal-btn,
+.modal-btn:hover,
+.modal-btn:active {
+  background-color: #b251a5;
+}
+.modal-no {
+  background-color: #f5e9f4;
+  color: #8f2281;
+}
+.modal-yes {
+  background-color: #b251a5;
+  color: white;
+}
 
 /* SLIDER */
 
