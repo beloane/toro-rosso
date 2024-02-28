@@ -16,6 +16,21 @@
     <link rel="stylesheet" href="queries.css" />
   </head>
   <body>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>I'm a modal window 😍</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
     <header class="section-header">
       <nav class="nav">
         <ul class="social-links">
@@ -95,72 +110,38 @@
         </div>
       </section>
 
-      <section class="section-shop1">
+      <section class="section-slider1">
         <div class="container">
           <h2 class="heading-secondary">Shop-ul Toro Rosso</h2>
           <h3 class="heading-tertiary">Foloseste cardul THOR in locatie</h3>
         </div>
-        <div class="car">
-          <section class="carousel" aria-label="Gallery">
-            <ol class="carousel__viewport">
-              <li
-                id="carousel__slide1"
-                tabindex="0"
-                class="carousel__slide img-car1"
-              >
-                <div class="carousel__snapper">
-                  <a href="#carousel__slide4" class="carousel__prev"
-                    >Go to last slide</a
-                  >
-                  <a href="#carousel__slide2" class="carousel__next"
-                    >Go to next slide</a
-                  >
-                </div>
-              </li>
-              <li
-                id="carousel__slide2"
-                tabindex="0"
-                class="carousel__slide img-car2"
-              >
-                <div class="carousel__snapper"></div>
+        <div class="container">
+          <div class="slider">
+            <div class="slides">
+              <div class="slide">
+                <img src="img/car1.webp" alt="Image 1" />
+              </div>
+              <div class="slide">
+                <img src="img/car2.webp" alt="Image 2" />
+              </div>
+              <div class="slide">
+                <img src="img/car3.webp" alt="Image 3" />
+              </div>
+            </div>
 
-                <a href="#carousel__slide1" class="carousel__prev"
-                  >Go to previous slide</a
-                >
-                <a href="#carousel__slide3" class="carousel__next"
-                  >Go to next slide</a
-                >
-              </li>
-              <li
-                id="carousel__slide3"
-                tabindex="0"
-                class="carousel__slide img-car3"
-              >
-                <div class="carousel__snapper"></div>
-
-                <a href="#carousel__slide2" class="carousel__prev"
-                  >Go to previous slide</a
-                >
-                <a href="#carousel__slide4" class="carousel__next"
-                  >Go to next slide</a
-                >
-              </li>
-              <li
-                id="carousel__slide4"
-                tabindex="0"
-                class="carousel__slide img-car4"
-              >
-                <div class="carousel__snapper"></div>
-
-                <a href="#carousel__slide3" class="carousel__prev"
-                  >Go to previous slide</a
-                >
-                <a href="#carousel__slide1" class="carousel__next"
-                  >Go to first slide</a
-                >
-              </li>
-            </ol>
-          </section>
+            <button class="slide-arrow prev-arrow">
+              <ion-icon
+                class="slider-arrows"
+                name="arrow-back-outline"
+              ></ion-icon>
+            </button>
+            <button class="slide-arrow next-arrow">
+              <ion-icon
+                class="slider-arrows"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </button>
+          </div>
         </div>
       </section>
 
@@ -220,78 +201,53 @@
         </div>
       </section>
 
-      <section class="section-shop1">
+      <section class="section-slider2">
         <div class="container">
-          <h2 class="heading-secondary">Galerie Foto</h2>
-
-          <h3 class="heading-tertiary">Foloseste cardul THOR in locatie</h3>
+          <h2 class="heading-secondary">Galerie foto</h2>
         </div>
+        <div class="container">
+          <div class="slider2">
+            <div class="slides2">
+              <div class="slide2">
+                <img src="img/gal1.webp" alt="Image 1" />
+              </div>
+              <div class="slide2">
+                <img src="img/gal2.webp" alt="Image 2" />
+              </div>
+              <div class="slide2">
+                <img src="img/gal3.webp" alt="Image 3" />
+              </div>
+              <div class="slide2">
+                <img src="img/gal4.webp" alt="Image 3" />
+              </div>
+              <div class="slide2">
+                <img src="img/gal5.webp" alt="Image 3" />
+              </div>
+              <div class="slide2">
+                <img src="img/gal6.webp" alt="Image 3" />
+              </div>
+            </div>
 
-        <div class="car">
-          <section class="carousel" aria-label="Gallery">
-            <ol class="carousel__viewport">
-              <li
-                id="carousel__slide1"
-                tabindex="0"
-                class="carousel__slide2 img-gal1"
-              >
-                <div class="carousel__snapper">
-                  <a href="#carousel__slide4" class="carousel__prev"
-                    >Go to last slide</a
-                  >
-                  <a href="#carousel__slide2" class="carousel__next"
-                    >Go to next slide</a
-                  >
-                </div>
-              </li>
-              <li
-                id="carousel__slide2"
-                tabindex="0"
-                class="carousel__slide2 img-gal2"
-              >
-                <div class="carousel__snapper"></div>
-
-                <a href="#carousel__slide1" class="carousel__prev"
-                  >Go to previous slide</a
-                >
-                <a href="#carousel__slide3" class="carousel__next"
-                  >Go to next slide</a
-                >
-              </li>
-              <li
-                id="carousel__slide3"
-                tabindex="0"
-                class="carousel__slide2 img-gal3"
-              >
-                <div class="carousel__snapper"></div>
-
-                <a href="#carousel__slide2" class="carousel__prev"
-                  >Go to previous slide</a
-                >
-                <a href="#carousel__slide4" class="carousel__next"
-                  >Go to next slide</a
-                >
-              </li>
-              <li
-                id="carousel__slide4"
-                tabindex="0"
-                class="carousel__slide2 img-gal4"
-              >
-                <div class="carousel__snapper"></div>
-
-                <a href="#carousel__slide3" class="carousel__prev"
-                  >Go to previous slide</a
-                >
-                <a href="#carousel__slide1" class="carousel__next"
-                  >Go to first slide</a
-                >
-              </li>
-            </ol>
-          </section>
+            <button class="slide-arrow2 prev-arrow2">
+              <ion-icon
+                class="slider-arrows"
+                name="arrow-back-outline"
+              ></ion-icon>
+            </button>
+            <button class="slide-arrow2 next-arrow2">
+              <ion-icon
+                class="slider-arrows"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </button>
+          </div>
         </div>
       </section>
 
       <section class="section-vid">
+        <div class="container">
+          <h2 class="heading-secondary castiguri">Galerie Video</h2>
+        </div>
         <div class="container flex-vid">
           <video class="vid" poster="img/gal6.webp" controls>
             <source src="img/v1.mp4" type="video/mp4" />
@@ -441,5 +397,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -16,9 +16,6 @@
     gap: 2.4rem;
     row-gap: 5.2rem;
   }
-  .car {
-    max-width: 70rem;
-  }
 
   .grid--3-cols {
     grid-template-columns: repeat(2, 1fr);
@@ -49,9 +46,7 @@
   .container {
     max-width: 47rem;
   }
-  .car {
-    max-width: 47rem;
-  }
+
   .grid {
     row-gap: 5.2rem;
   }
@@ -91,6 +86,10 @@
     grid-column: 1 /-1;
     justify-self: center;
     width: 100%;
+  }
+
+  .slider-arrows {
+    font-size: 2.4rem;
   }
 }
 /* below 550px */
@@ -133,5 +132,13 @@
   .btn:link,
   .btn:visited {
     padding: 0.4rem 0.8rem;
+  }
+
+  .footer {
+    padding: 9.6rem;
+  }
+  .vid {
+    width: 24.12rem;
+    height: 18.8rem;
   }
 }
