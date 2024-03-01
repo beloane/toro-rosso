@@ -109,6 +109,7 @@ body {
   background-color: #e2bedd;
   color: #8f2281;
 }
+
 .modal-no {
   background-color: #f5e9f4;
   color: #8f2281;
@@ -139,14 +140,16 @@ body {
 
 .slide,
 .slide2 {
-  min-width: 100%; /* Each slide takes full width of the slider */
-  transition: transform 0.5s ease; /* Smooth transition for sliding effect */
+  min-width: 100%;
+  transition: transform 0.5s ease;
 }
 
 .slide img,
 .slide2 img {
-  width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container without losing its aspect ratio */
+  object-position: center; /* Ensures the image is centered in the container */
 
   border-radius: 11px;
 }
@@ -469,7 +472,7 @@ h1 {
 }
 
 .cv-container {
-  background-image: url(img/galcv.webp);
+  background-image: url(img/IMG-cv.webp);
   background-size: cover;
   background-position: center;
   text-align: center;
