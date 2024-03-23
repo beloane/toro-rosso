@@ -72,6 +72,14 @@ document.addEventListener("DOMContentLoaded", function () {
     ".prev-arrow2",
     ".next-arrow2"
   );
+  // Slider 3
+  initializeSlider(
+    ".slider3",
+    ".slides3",
+    ".slide3",
+    ".prev-arrow3",
+    ".next-arrow3"
+  );
 
   function initializeSlider(
     sliderClass,

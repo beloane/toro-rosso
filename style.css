@@ -126,7 +126,8 @@ body {
 /* SLIDER */
 
 .slider,
-.slider2 {
+.slider2,
+.slider3 {
   position: relative;
 
   width: 100%; /* Full width of the container */
@@ -136,20 +137,23 @@ body {
 }
 
 .slides,
-.slides2 {
+.slides2,
+.slides3 {
   max-height: 60vh;
   display: flex; /* Align slides in a row */
   transition: transform 0.5s ease; /* Smooth transition for sliding effect */
 }
 
 .slide,
-.slide2 {
+.slide2,
+.slide3 {
   min-width: 100%;
   transition: transform 0.5s ease;
 }
 
 .slide img,
-.slide2 img {
+.slide2 img,
+.slide3 img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ensures the image covers the container without losing its aspect ratio */
@@ -159,7 +163,8 @@ body {
 }
 
 .slide-arrow,
-.slide-arrow2 {
+.slide-arrow2,
+.slide-arrow3 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -178,12 +183,14 @@ body {
 }
 
 .prev-arrow,
-.prev-arrow2 {
+.prev-arrow2,
+.prev-arrow3 {
   left: 1rem;
 }
 
 .next-arrow,
-.next-arrow2 {
+.next-arrow2,
+.next-arrow3 {
   right: 1rem;
 }
 
@@ -329,6 +336,10 @@ h1 {
 .section-slider2 {
   padding: 3.2rem 0;
   background-image: linear-gradient(rgba(48, 11, 43, 1), rgb(207, 147, 199));
+}
+.section-slider3 {
+  padding: 3.2rem 0;
+  background-image: linear-gradient(rgb(207, 147, 199), rgba(48, 11, 43, 1));
 }
 
 .section-features {
