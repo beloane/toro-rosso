@@ -6,6 +6,9 @@
   .grid {
     gap: 4.5rem;
   }
+  .info {
+    font-size: 1.4rem;
+  }
 }
 /* below 960 */
 @media (max-width: 60em) {
@@ -15,6 +18,9 @@
   .grid {
     gap: 2.4rem;
     row-gap: 5.2rem;
+  }
+  .info {
+    font-size: 1.1rem;
   }
 
   .grid--3-cols {
@@ -46,6 +52,9 @@
 @media (max-width: 47em) {
   .container {
     max-width: 47rem;
+  }
+  .info {
+    font-size: 1.4rem;
   }
 
   .grid {
@@ -136,5 +145,9 @@
   .vid {
     width: 24.12rem;
     height: 18.8rem;
+  }
+
+  .info {
+    font-size: 1.2rem;
   }
 }

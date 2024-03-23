@@ -136,4 +136,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+// Cards
+document.querySelectorAll(".card").forEach((card) => {
+  card.addEventListener("click", function () {
+    card.classList.toggle("flipped");
+  });
+});
+
 document.querySelector(".copy-year").textContent = new Date().getFullYear();
