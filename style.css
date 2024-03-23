@@ -153,6 +153,9 @@ body {
   align-items: center;
   height: 100%;
 }
+.info-large {
+  font-size: 1.6rem;
+}
 
 .card.flipped .img {
   transform: rotateY(180deg);

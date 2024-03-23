@@ -9,6 +9,9 @@
   .info {
     font-size: 1.4rem;
   }
+  .info-large {
+    font-size: 1.2rem;
+  }
 }
 /* below 960 */
 @media (max-width: 60em) {
@@ -21,6 +24,9 @@
   }
   .info {
     font-size: 1.1rem;
+  }
+  .info-large {
+    font-size: 0.8rem;
   }
 
   .grid--3-cols {
@@ -55,6 +61,9 @@
   }
   .info {
     font-size: 1.4rem;
+  }
+  .info-large {
+    font-size: 1.2rem;
   }
 
   .grid {
@@ -149,5 +158,8 @@
 
   .info {
     font-size: 1.2rem;
+  }
+  .info-large {
+    font-size: 0.9rem;
   }
 }
